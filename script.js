@@ -7,8 +7,8 @@
 // 4) https://webrtcglossary.com
 
 let room, peerConnection;
-let roomName = "observable-" + prompt("Enter room name", "defaultRoom");
-let userName = prompt("Hey there, what's your name?", "Incognito") || "no_name";
+let roomName = "observable-" + prompt("Enter room name", "");
+let userName = prompt("Hey there, what's your name?", "") || "no_name";
 
 // One instance of Scaledrone establishes a single connection, takes parameter 'CHANNEL_ID_FROM_DASHBOARD'.
 let drone = new ScaleDrone("yiS12Ts5RdNhebyM", {
