@@ -72,6 +72,15 @@ video {
 
 input {
     width: 95%;
+    height:100px;
+}
+
+button {
+width: 300px;
+height:100px;
+font-size: 26px;
+color: #fff587 ;
+
 }
 
 .header-title {
