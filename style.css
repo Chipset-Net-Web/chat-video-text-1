@@ -21,6 +21,14 @@ h2 {
     font-size: 30px;
 }
 
+p {
+color: white;
+background: black;
+font-size:20px;
+
+
+}
+
 .container {
     height: 100%;
     display: grid;
