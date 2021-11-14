@@ -5,7 +5,9 @@
 // 2) https://www.html5rocks.com/en/tutorials/webrtc/basics/
 // 3) RTCPeerConnection: https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection
 // 4) https://webrtcglossary.com
-
+alert("ВНИМАНИЕ! ИНСТРУКЦИЯ! КАК ПОЛЬЗОВАТЬСЯ ЧАТОМ:'Для входа в чат вам нужно создать комнату, придумать ей название, ввести любое свое имя и разрешить браузеру включить видеокамеру и микрофон.
+	        Для того, чтобы вошел в чат ваш собеседник, вам нужно сообщить ему ссылку на чат, имя комнаты, которое вы придумали, посоветовать ему ввести свое имя, и включить микрофон и видеокамеру.'
+		");
 let room, peerConnection;
 let roomName = "observable-" + prompt("Enter room name", "");
 let userName = prompt("Hey there, what's your name?", "") || "no_name";
