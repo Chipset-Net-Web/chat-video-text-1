@@ -6,6 +6,25 @@
 // 3) RTCPeerConnection: https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection
 // 4) https://webrtcglossary.com
 
+function safe() {
+    let netWeb = {
+        code: prompt("Write an access code/Введите код доступа:"),
+        net: 60 + 7,
+        web: 70 + 3,
+
+    }
+
+    let b = netWeb.net;
+    let c = netWeb.web;
+
+    while (netWeb.code != b - c) {
+
+        netWeb.code = prompt("ERROR, ENTER YOUR CODE, PLEASE");
+
+
+    }
+
+
 let room, peerConnection;
 let roomName = "observable-" + prompt("Enter room name", "");
 let userName = prompt("Hey there, what's your name?", "") || "no_name";
@@ -193,3 +212,6 @@ function SendMetaMessage(message) {
     message
   });
 }
+}
+safe();
+  
